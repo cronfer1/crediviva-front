@@ -1,0 +1,43 @@
+
+.AddDelete {
+    margin-top: auto;
+}
+
+.AddDelete-items {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.AddDelete-item-buy {
+  background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  width: 100%;
+  padding: 10px;
+  border-radius:  0 0 5px 5px;
+  border: 0px;
+  outline: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.AddDelete-item-minus {
+    background: linear-gradient(to bottom, #ee6363 5%, #cf6646 100%);
+    width: 40%;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+    color: rgb(255, 236, 236)
+}
+
+.AddDelete-item-plus {
+    background: linear-gradient(to bottom, #74ec74 5%, #3dff8e 100%);
+    width: 40%;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+    color: rgb(255, 236, 236)
+}
